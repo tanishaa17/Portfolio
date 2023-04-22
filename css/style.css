@@ -26,21 +26,25 @@ html {
   scroll-behavior: smooth;
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 600px) {
   html {
-    font-size: 30%;
+    font-size: 40%;
   }
+
+  /* body {
+    width: 100%;
+  } */
 }
 
 @media only screen and (max-width: 56.25em) {
   html {
-    font-size: 56%;
+    font-size: 60%;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
   html {
-    font-size: 65%;
+    font-size: 75%;
   }
 }
 
@@ -100,6 +104,7 @@ textarea {
   .heading-sec__mb-bg {
     margin-bottom: 8rem;
   }
+
 }
 
 .heading-sec__mb-med {
@@ -405,6 +410,7 @@ textarea {
   font-weight: 700;
   font-size: 2.8rem;
   margin-bottom: 3rem;
+  margin-top: 5rem;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -445,7 +451,7 @@ textarea {
   }
 }
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 37.5em) {
   .projects__row {
     text-align: center;
   }
@@ -497,6 +503,13 @@ textarea {
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem;
+}
+
+#githubStats {
+  background-color: #000;
+  color: #ebebeb;
+  padding: 2%;
+  margin-bottom: 15rem;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -820,6 +833,7 @@ textarea {
 @media only screen and (max-width: 37.5em) {
   .main-footer__upper {
     display: block;
+
   }
 }
 
@@ -884,6 +898,8 @@ textarea {
   .main-footer__lower {
     padding: 3.5rem 0;
   }
+
+ 
 }
 
 .skills {

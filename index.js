@@ -36,3 +36,11 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+function downloadResume() {
+
+  let url = 'https://drive.google.com/file/d/1fszhTlcH2o-TXFqbnfAJ4JdzYP8QI6iU/view?usp=share_link';
+  window.open(url,"_blank")
+
+
+}

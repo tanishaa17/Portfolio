@@ -11,6 +11,9 @@
 
   <link rel="stylesheet" href="css/style.css" />
 
+  <!-- GITHUB STYLESHEET -->
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
@@ -18,6 +21,9 @@
 </head>
 
 <body>
+
+  <!-- NAVBAR -->
+
   <header class="header">
     <div class="header__content">
       <div class="header__logo-container">
@@ -29,7 +35,7 @@
       <div class="header__main">
         <ul class="header__links">
           <li class="header__link-wrapper">
-            <a href="./index.html" class="header__link"> Home </a>
+            <a href="./" class="header__link"> Home </a>
           </li>
 
           <li class="header__link-wrapper">
@@ -61,16 +67,16 @@
       <div class="header__sm-menu-content">
         <ul class="header__sm-menu-links">
           <li class="header__sm-menu-link">
-            <a href="./index.html"> Home </a>
+            <a href="./"> Home </a>
           </li>
 
           <li class="header__sm-menu-link">
             <a href="./index.html#about"> About </a>
           </li>
 
-          <!-- <li class="header__sm-menu-link">
-            <a href="./index.html.skills"> Skills </a>
-          </li> -->
+          <li class="header__sm-menu-link">
+            <a href="./index.html#skills"> Skills </a>
+          </li>
 
           <li class="header__sm-menu-link">
             <a href="./index.html#projects"> Projects </a>
@@ -83,24 +89,23 @@
       </div>
     </div>
   </header>
+
+  <!-- HOME SECTION -->
+
   <section class="home-hero">
     <div class="home-hero__content">
       <h1 class="heading-primary">Hey, i'm Tanisha Gupta</h1>
       <div class="home-hero__info">
         <p class="text-primary">
-
-          An aspiring Full-Stack Web Developer based in India, working on frontend and backend including JavaScript,
-          MongoDB, Express, React, Redux and NodeJS.
+          A Full-Stack Web Developer based in India, working on frontend and backend technologies including JavaScript,
+          typescript, React, Redux, MongoDB, Express and NodeJS.
         </p>
       </div>
       <div class="home-hero__cta">
-        <!-- <a href="/Resume/tanisha-gupta-resume.pdf" download="tanisha-gupta-resume" target="_blank">Resume</a> -->
-
-        <a href="https://drive.google.com/file/d/1fszhTlcH2o-TXFqbnfAJ4JdzYP8QI6iU/view?usp=share_link" target="_blank"
-          class="btn btn--bg" download="tanisha-gupta-resume">Resume</a>
-        <!-- <a href="./#projects" class="btn btn--bg">Projects</a> -->
+        <a class="btn btn--bg" href="/Resume/tanisha-gupta-resume.pdf" download onclick="downloadResume()">Resume</a>
       </div>
     </div>
+
     <div class="home-hero__socials">
       <div class="home-hero__social">
         <a href="https://www.linkedin.com/in/tanisha-gupta-9170b0230/" target="_blank"
@@ -129,17 +134,27 @@
       <div class="mouse"></div>
     </div>
   </section>
+
+  <!-- ABOUT ME SECTION -->
+
   <section id="about" class="about sec-pad">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-med">
         <span class="heading-sec__main">About Me</span>
         <div class="heading_about_imagediv">
-          <img class="pic" src="./assets/png/portfolioPP.jpg" alt="">
-          <span class="heading-sec__sub">
-            Hey! everyone, I am <strong>Tanisha Gupta</strong> from Lucknow, UP. I have completed my Bachelor of
-            commerce from Lucknow University in 2019 and currently I'm learning <strong>Full Stack Web
-              Development</strong> course from Masai School. I am skilled in HTML, CSS, JavaScript, Node js, ExpressJs,
-            MongoDB, React, Redux. I am adaptable and a good communicator, with great leadership qualities.
+          <img style="border-radius: 50%;" class="pic" src="./assets/png/portfolioPP.jpg" alt="">
+          <span style="line-height: 40px;" class="heading-sec__sub">
+            Hey! everyone, I am <strong>Tanisha Gupta</strong> from Lucknow, UP. I have completed my Bachelors of
+            commerce from <strong> University of Lucknow</strong> in 2019 and <strong>MERN Stack Web
+              Development</strong> course from <strong> Masai School</strong> in July 2022. Since then I've been working
+            as an <strong>Instructional Associate</strong> at <strong> Masai School </strong>. I am skilled in
+            <pre><strong>HTML,  CSS,  JavaScript,  Node js,  ExpressJs,  MongoDB,  React,  Redux.</strong> </pre> and
+            passionate about learning new skills and utilize them in different projects. Along with that
+            I am adaptable and a good communicator with great leadership qualities.
+            <p>
+              I am excited to continue growing my skills and collaborating with professionals in the industry.
+              Please feel free to explore my portfolio and reach out to me for any opportunities or collaborations."
+            </p>
           </span>
 
         </div>
@@ -156,14 +171,15 @@
           <div class="about_contact_resume">
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
             <a href="./#projects" class="btn btn--med btn--theme dynamicBgClr">Projects</a>
-            <!-- <a href="https://drive.google.com/file/d/16YGa6udN0AK2aQ0C26AYAsUuuCC9CvZG/view?usp=sharing"
-              class="btn btn--med btn--theme dynamicBgClr">Find Resume</a> -->
           </div>
         </div>
 
       </div>
     </div>
   </section>
+
+  <!-- SKILLS SECTION -->
+
   <section id="skills" class="main-container">
     <div class="about__content-skills">
       <h3 class="about__content-title">My Skills</h3>
@@ -174,9 +190,6 @@
         <div class="skills__skill">
           <img src="/Images/css.svg" alt="">
         </div>
-        <!-- <div class="skills__skill">
-          <img src="/Images/html.svg" alt="">
-          Tailwind</div> -->
         <div class="skills__skill">
           <img src="/Images/javascript.svg" alt="">
         </div>
@@ -202,12 +215,18 @@
           <img src="/Images/materialui.svg" alt="">
         </div>
         <div class="skills__skill">
+          <img src="/Images/chakraui.jpg" alt="">
+        </div>
+        <div class="skills__skill">
           <img src="/Images/git.svg" alt="">
         </div>
 
       </div>
     </div>
   </section>
+
+  <!-- PROJECT SECTION -->
+
   <section id="projects" class="projects sec-pad">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-bg">
@@ -219,7 +238,7 @@
       <div class="projects__content">
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img class="bigbasket" src="./assets/jpeg/Apollo.png" alt="Apollo247 Screenshot" class="projects__row-img"
+            <img class="bigbasket" src="./assets/jpeg/Apollo.png" alt="Apollo247 cover page" class="projects__row-img"
               loading="lazy" />
           </div>
           <div class="projects__row-content">
@@ -246,7 +265,7 @@
         <!-- 2ND PROJECT STARTS -->
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img class="fragrance" src="./assets/jpeg/Levi.png" alt="Levi Store Screenshot" class="projects__row-img"
+            <img class="fragrance" src="./assets/jpeg/Levi.png" alt="Levi Store cover page" class="projects__row-img"
               loading="lazy" />
           </div>
           <div class="projects__row-content">
@@ -278,7 +297,7 @@
 
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img class="bigbasket" src="./assets/jpeg/EpicGames.png" alt="Epic Games Screenshot"
+            <img class="bigbasket" src="./assets/jpeg/EpicGames.png" alt="Epic Games cover page"
               class="projects__row-img" loading="lazy" />
           </div>
           <div class="projects__row-content">
@@ -308,6 +327,23 @@
     </div>
     </div>
   </section>
+
+  <!-- GITHUB STATISTICS -->
+
+  <section>
+    <div id="githubStats" class="main-container" style=" font-size: large;">
+
+      <!-- Prepare a container for your calendar. -->
+      <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+
   <section id="contact" class="contact sec-pad dynamicBg">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-med">
@@ -343,6 +379,8 @@
     </div>
     </div>
   </section>
+
+  <!-- FOOTER PART -->
   <footer class="main-footer">
     <div class="main-container">
       <div class="main-footer__upper">
@@ -381,7 +419,24 @@
     </div>
   </footer>
 
-  <script src="./index.js"></script>
 </body>
 
 </html>
+<script src="./index.js"></script>
+
+<!-- Include the library. -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<script>
+  GitHubCalendar(".calendar", "tanishaa17");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "tanishaa17", { responsive: true });
+
+  // Use a proxy
+  GitHubCalendar(".calendar", "tanishaa17", {
+    proxy(username) {
+      return fetch(`https://your-proxy.com/github?user=${username}`)
+    }
+  }).then(r => r.text())
+</script>
