@@ -867,7 +867,7 @@ textarea {
 }
 
 .main-footer__row-2 {
-  width: 40%;
+  width: 100%;
   order: 1;
   max-width: 50rem;
 }
