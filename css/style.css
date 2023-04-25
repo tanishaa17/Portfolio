@@ -941,10 +941,11 @@ textarea {
   font-size: 1.8rem;
 }
 
-.skills__skill>img {
+/* .skills__skill>img {
   height: 70px;
   padding: 10%;
-}
+  display: contents;
+} */
 
 .mouse {
   width: 25px;
