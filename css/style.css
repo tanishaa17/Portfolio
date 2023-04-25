@@ -936,9 +936,9 @@ textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 12rem;
+  font-size: 1.8rem;
   display: flex;
   justify-content: center;
-  font-size: 1.8rem;
 }
 
 .skills__skill>img {
