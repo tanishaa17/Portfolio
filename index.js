@@ -39,8 +39,8 @@ headerLogoConatiner.addEventListener('click', () => {
 
 function downloadResume() {
 
-  let url = 'https://drive.google.com/file/d/1fszhTlcH2o-TXFqbnfAJ4JdzYP8QI6iU/view?usp=share_link';
-  window.open(url,"_blank")
+  let url = 'https://drive.google.com/file/d/1LoW5Lkp7DqI4tL2GqS2lDx_7MF3OkTw8/view?usp=share_link';
+  window.open(url, "_blank")
 
 
 }
