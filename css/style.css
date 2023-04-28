@@ -152,7 +152,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: rgba(132, 228, 245, 0.8);
+  background: rgb(15, 87, 160);
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -825,6 +825,7 @@ textarea {
 @media only screen and (max-width: 37.5em) {
   .main-footer__upper {
     display: block;
+    text-align: center;
   }
 }
 
@@ -839,7 +840,6 @@ textarea {
 }
 
 .main-footer__row-2 {
-  width: 40%;
   order: 1;
   max-width: 50rem;
 }
@@ -971,7 +971,7 @@ textarea {
 }
 
 .calendar {
-  overflow: hidden;
+  overflow: auto;
 }
 
 #githubStats {
