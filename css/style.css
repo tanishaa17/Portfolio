@@ -129,6 +129,7 @@ textarea {
 @media only screen and (max-width: 37.5em) {
   .heading_about_imagediv {
     display: block;
+    width: 100%;
     text-align: center;
   }
 }
