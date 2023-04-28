@@ -971,14 +971,7 @@ textarea {
 }
 
 .calendar {
-  width: 100%;
-  /* set the width of the div to 100% of the container */
-  height: 100%;
-  /* set the height of the div to 100% of the container */
-  box-sizing: border-box;
-  /* include padding and border in the total size */
   overflow: hidden;
-  /* hide any content that overflows */
 }
 
 #githubStats {
