@@ -119,6 +119,13 @@ textarea {
   margin: auto;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .heading_about_imagediv {
+    display: block;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 37.5em) {
   .heading_about_imagediv {
     display: block;
@@ -194,7 +201,8 @@ textarea {
 .main-container {
   max-width: 120rem;
   margin: auto;
-  width: 92%;
+  width: 95%;
+  overflow: hidden;
 }
 
 .about_contact_resume {
@@ -326,7 +334,7 @@ textarea {
   transform: translateX(-50%);
 }
 
-@media all and (max-width: 37.5rem) {
+@media only screen and (max-width: 37.5rem) {
   .home-hero__mouse-scroll-cont {
     display: none;
   }
@@ -366,7 +374,7 @@ textarea {
   width: 92%;
 }
 
-@media all and (max-width: 37.5rem) {
+@media only screen and (max-width: 37.5rem) {
   .home-hero__content {
     padding: 19rem 0 13rem 0;
     margin: auto;
@@ -409,7 +417,7 @@ textarea {
   margin-top: 5rem;
 }
 
-@media all and (max-width: 37.5rem) {
+@media only screen and (max-width: 37.5rem) {
   .about__content-title {
     font-size: 2.4rem;
   }
@@ -444,10 +452,11 @@ textarea {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     margin-bottom: 8rem;
+    text-align: center;
   }
 }
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 37.5em) {
   .projects__row {
     text-align: center;
   }
@@ -475,11 +484,27 @@ textarea {
   align-items: flex-start;
 }
 
-@media all and (max-width: 57.25rem) {
+
+.bigbasket,
+.fragrance {
+  width: 100%;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 57.25rem) {
   .projects__row-content {
     align-items: center;
   }
 }
+
+/* @media only screen and (max-width: 37.5rem) {
+
+  .projects__row-content,
+  .bigbasket,
+  .fragrance {
+    overflow: hidden;
+  }
+} */
 
 .projects__row-content-title {
   font-weight: 700;
@@ -487,7 +512,7 @@ textarea {
   margin-bottom: 2rem;
 }
 
-@media all and (max-width: 37.5rem) {
+@media only screen and (max-width: 37.5rem) {
   .projects__row-content-title {
     font-size: 2.4rem;
   }
@@ -693,7 +718,7 @@ textarea {
   display: flex;
 }
 
-@media all and (max-width: 37.5rem) {
+@media only screen and (max-width: 37.5rem) {
   .header__links {
     display: none;
   }
@@ -958,11 +983,6 @@ textarea {
   width: 30%;
 }
 
-.bigbasket,
-.fragrance {
-  width: 100%;
-  border-radius: 4px;
-}
 
 #githubCalender {
   background-color: #000;
