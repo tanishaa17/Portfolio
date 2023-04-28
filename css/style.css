@@ -482,6 +482,7 @@ textarea {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  overflow: auto;
 }
 
 
@@ -1002,7 +1003,7 @@ textarea {
   color: #ebebeb;
   padding: 2%;
   margin-bottom: 15rem;
-  overflow: hidden;
+  overflow: auto;
 }
 
 @media only screen and (max-width: 37.5rem) {
