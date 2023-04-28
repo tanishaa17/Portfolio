@@ -152,7 +152,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: rgb(15, 87, 160);
+  background: rgb(5, 92, 222);
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -982,6 +982,7 @@ textarea {
   color: #ebebeb;
   padding: 2%;
   margin-bottom: 15rem;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 37.5rem) {
