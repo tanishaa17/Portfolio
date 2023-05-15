@@ -486,7 +486,6 @@ textarea {
   overflow: auto;
 }
 
-
 .bigbasket,
 .fragrance {
   width: 100%;
@@ -527,7 +526,6 @@ textarea {
   line-height: 1.7;
   margin-bottom: 3rem;
 }
-
 
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-desc {
@@ -786,7 +784,6 @@ textarea {
   opacity: 0;
 }
 
-
 @media only screen and (max-width: 37.5em) {
   .header__sm-menu--active {
     visibility: visible;
@@ -841,7 +838,6 @@ textarea {
   justify-content: space-between;
   padding: 8rem 0;
 }
-
 
 @media only screen and (max-width: 56.25em) {
   .main-footer__upper {
@@ -923,7 +919,6 @@ textarea {
   flex-wrap: wrap;
 }
 
-
 .skills__skill {
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
@@ -985,7 +980,6 @@ textarea {
   width: 30%;
 }
 
-
 #githubCalender {
   background-color: #000;
   color: #ebebeb;
@@ -1003,6 +997,14 @@ textarea {
   align-items: center;
   color: #ebebeb;
   padding: 2%;
+  overflow: auto;
+}
+
+#languageUsedDiv {
+  background-color: #000;
+  text-align: center;
+  color: #ebebeb;
+  padding: 2%;
   margin-bottom: 15rem;
   overflow: auto;
 }
@@ -1011,7 +1013,6 @@ textarea {
   #githubStats {
     display: block;
     text-align: center;
-
   }
 }
 
@@ -1019,6 +1020,5 @@ textarea {
   #githubStats {
     display: block;
     text-align: center;
-
   }
 }
